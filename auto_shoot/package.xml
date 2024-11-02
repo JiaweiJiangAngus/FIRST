@@ -1,0 +1,22 @@
+<package format="3">
+  <name>auto_shoot</name>
+  <version>0.0.1</version>
+  <description>tdt_auto_shoot_demo</description>
+  <maintainer email="zhujunheng2005@gmail.com">mozihe</maintainer>
+  <license>Apache License 2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <build_export_depend>rclcpp</build_export_depend>
+  <build_export_depend>sensor_msgs</build_export_depend>
+  <build_export_depend>cv_bridge</build_export_depend>
+  <build_export_depend>tdt_interface</build_export_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>opencv</exec_depend>
+  
+  <export>                               
+   <build_type>ament_cmake</build_type> 
+  </export> 
+</package>
+
